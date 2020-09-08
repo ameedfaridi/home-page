@@ -1,24 +1,27 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import Home from "./Components/home/Home";
+import Middle from "./Components/Middle/Middle";
+import QuickSearch from "./Components/QuickSearches/QuickSearch";
+import FirstStep from "./Components/HowItsWork/FirstStep";
+import SecondStep from "./Components/SecondStep/SecondStep";
+import ThirdStep from "./Components/ThirdStep/ThirdStep";
+import ChooseUs from "./Components/Why Choose/ChooseUs";
+import Footer from "./Components/Footer/Footer";
+import End from "./Components/End/End";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Home />
+      <Middle />
+      <QuickSearch />
+      <FirstStep />
+      <SecondStep />
+      <ThirdStep />
+      <ChooseUs />
+      <Footer />
+      <End />
     </div>
   );
 }

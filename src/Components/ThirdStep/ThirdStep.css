@@ -1,0 +1,39 @@
+.MainThirdStep {
+  margin-top: 5rem;
+}
+
+.MainThirdStep center {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.MainThirdStep main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.MainThirdStep div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.MainThirdStep h4 {
+  text-align: center;
+  width: 25rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .third {
+    overflow: hidden;
+  }
+  .MainThirdStep center {
+    display: flex;
+    flex-direction: column;
+  }
+  .MainThirdStep div {
+    display: flex;
+    flex-direction: column;
+  }
+}

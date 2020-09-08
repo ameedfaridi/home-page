@@ -1,0 +1,29 @@
+.end {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.4);
+  padding-top: 0;
+}
+.endCont {
+  margin-top: 0;
+  margin-left: 3rem;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.endCont img {
+  padding-right: 10px;
+}
+.endCont a {
+  color: rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+@media only screen and (max-width: 380px) {
+  .endCont {
+    display: flex;
+    flex-direction: column;
+  }
+}

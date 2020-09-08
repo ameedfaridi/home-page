@@ -1,0 +1,61 @@
+.Main_middle {
+  margin-left: 6rem;
+}
+#TickContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 15rem 0px 0px;
+  text-align: justify;
+}
+.TickBody {
+  margin: 0;
+  padding: 0;
+}
+.MainMiddleBody {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  align-items: center;
+}
+.MiddleBodyContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: justify;
+}
+.MiddleBodyContainer a {
+  background-color: rgba(75, 198, 168);
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  text-align: center;
+  width: 6rem;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Main_middle {
+    margin-left: 0;
+  }
+  .MainMiddleBody {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    overflow: hidden;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #TickContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .illustration {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}

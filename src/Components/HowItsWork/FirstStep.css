@@ -1,0 +1,35 @@
+.MainFirstStep {
+  margin-top: 4rem;
+}
+.MainFirstStep h3 {
+  color: rgba(0, 0, 0, 0.4);
+  margin: 0;
+  padding: 0;
+}
+.MainFirstStep h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 2.8rem;
+  margin-bottom: 30px;
+}
+.MainFirstStep div {
+  display: flex;
+  justify-content: center;
+}
+
+.MainFirstStep h4 {
+  display: flex;
+  justify-content: center;
+  width: 27rem;
+}
+@media only screen and (max-width: 600px) {
+  .MainFirstStep {
+    overflow: hidden;
+  }
+  .imgtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

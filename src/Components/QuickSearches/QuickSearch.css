@@ -1,0 +1,39 @@
+.MainQuickSearch {
+  margin-top: 6rem;
+  background-color: rgba(255, 236, 198);
+  padding: 5rem;
+}
+.MainQuickSearch h3 {
+  color: rgba(0, 0, 0, 0.4);
+  margin: 0;
+  padding: 0;
+}
+.MainQuickSearch h1 {
+  font-size: 3.1rem;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 3rem;
+}
+.imgContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.MainQuickSearch a {
+  background-color: rgba(75, 198, 168);
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 600px) {
+  .imgContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
